@@ -1,6 +1,9 @@
+// Estrutura //
 class Pessoa{
     var nome:String = "Charles"
+
     var cpf:String = "111.555.454-55"
+    private set //deixa a propriedade privada de ser alterada, mas pode ser obtida (get)
 
     // Classe Interna //
     inner class End {
